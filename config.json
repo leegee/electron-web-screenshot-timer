@@ -1,0 +1,19 @@
+{
+  "interval": 54000,
+  "pauseAfterLoad": 1000,
+  "uris": {
+    "1": "https://www.youtube.com/watch?v=q5iCPKDp4V4",
+    "2": "https://www.youtube.com/watch?v=C8OhSd1TY7g",
+    "3": "https://www.youtube.com/watch?v=U-bF2vYHTQE",
+    "4": "https://www.youtube.com/watch?v=EntM93k3wUs",
+    "5": "https://www.youtube.com/watch?v=m55tzTIJwwA",
+    "6": "https://www.youtube.com/watch?v=sRXE5XlWnt4",
+    "7": "https://www.youtube.com/watch?v=N4WMxMJ-J3Y",
+    "8": "https://www.youtube.com/watch?v=j8kudE06p08",
+    "9": "https://www.youtube.com/watch?v=tpnjIyfmiG8",
+    "10": "https://www.youtube.com/watch?v=wnolqc8vh9E",
+    "11": "https://www.youtube.com/watch?v=zoPHv2Vtpvg",
+    "12": "https://www.youtube.com/watch?v=hhOmU6VRkwk",
+    "13": "https://www.youtube.com/watch?v=tzARGfl8f3k"
+  }
+}
