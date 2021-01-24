@@ -47,7 +47,7 @@ function takeScreenshot({ mainWindow, filename, uri }) {
     fs.mkdirSync(dir, { recursive: true });
   }
 
-  const path = dir + '/' + d + '.png');
+  const path = dir + '/' + d + '.png';
   console.log("Do ", uri, " -> ", path);
 
   mainWindow.show();
