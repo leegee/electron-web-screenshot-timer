@@ -1,7 +1,6 @@
 const { app, BrowserWindow } = require('electron')
 const path = require('path')
 const fs = require("fs");
-const path = require("path");
 
 const userConfig = require('./config.json');
 userConfig.pauseAfterLoad = userConfig.pauseAfterLoad || 1000;
@@ -48,14 +47,14 @@ function takeScreenshot({ mainWindow, filename, uri }) {
     fs.mkdirSync(dir, { recursive: true });
   }
 
-  const path = dir + '/' + d + '.png';
-  console.log("Do ", uri, " -> ", path);
+  const filepath = dir + '/' + d + '.png';
+  console.log("Do ", uri, " -> ", filepath);
 
   mainWindow.show();
   mainWindow.maximize();
 
   mainWindow.loadURL(uri).then(() => {
-    setTimeout(() => capture(mainWindow, path), userConfig.pauseAfterLoad);
+    setTimeout(() => capture(mainWindow, filepath), userConfig.pauseAfterLoad);
   });
 }
 
@@ -68,7 +67,7 @@ function capture(mainWindow, file) {
           console.error("Error: ", err);
           throw err;
         }
-        console.log("Saved " + url + " at " + file);
+        console.log("Saved at " + file);
         mainWindow.loadFile('index.html');
       });
     });
