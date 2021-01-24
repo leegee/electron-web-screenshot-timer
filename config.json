@@ -1,6 +1,7 @@
 {
   "interval": 54000,
   "pauseAfterLoad": 1000,
+  "maxScreenshots": 100,
   "uris": {
     "1": "https://www.youtube.com/watch?v=q5iCPKDp4V4",
     "2": "https://www.youtube.com/watch?v=C8OhSd1TY7g",
