@@ -1,6 +1,7 @@
 const { app, BrowserWindow } = require('electron')
 const path = require('path')
 const fs = require("fs");
+const path = require("path");
 
 const userConfig = require('./config.json');
 userConfig.pauseAfterLoad = userConfig.pauseAfterLoad || 1000;
